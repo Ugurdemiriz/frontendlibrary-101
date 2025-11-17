@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Frontend Library 101 - Comprehensive frontend development learning resource covering HTML, CSS, Bootstrap, and JavaScript">
+    <meta name="keywords" content="frontend, web development, HTML, CSS, Bootstrap, JavaScript, tutorial, learning">
+    <meta name="author" content="Ugur Demiriz">
+    <title>Frontend Library 101 - Learn Web Development</title>
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="assets/css/main.css">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+                <a href="#" class="logo">
+                    <span class="logo-icon">📚</span>
+                    <span class="logo-text">Frontend Library 101</span>
+                </a>
+                <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="#home" class="nav-link active">Home</a></li>
+                    <li><a href="#html" class="nav-link">HTML</a></li>
+                    <li><a href="#css" class="nav-link">CSS</a></li>
+                    <li><a href="#bootstrap" class="nav-link">Bootstrap</a></li>
+                    <li><a href="#javascript" class="nav-link">JavaScript</a></li>
+                    <li><a href="#resources" class="nav-link">Resources</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    Master Frontend Development
+                    <span class="gradient-text">Step by Step</span>
+                </h1>
+                <p class="hero-description">
+                    A comprehensive learning resource covering HTML, CSS, Bootstrap, and JavaScript fundamentals. 
+                    Perfect for beginners and those looking to strengthen their frontend skills.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#html" class="btn btn-primary">Get Started</a>
+                    <a href="#resources" class="btn btn-secondary">View Resources</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="code-window">
+                    <div class="code-window-header">
+                        <span class="dot red"></span>
+                        <span class="dot yellow"></span>
+                        <span class="dot green"></span>
+                    </div>
+                    <div class="code-content">
+                        <pre><code>&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+    &lt;title&gt;Hello World&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;h1&gt;Welcome!&lt;/h1&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="container">
+            <h2 class="section-title">What You'll Learn</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">🌐</div>
+                    <h3>HTML Fundamentals</h3>
+                    <p>Learn semantic HTML, forms, tables, and modern HTML5 features. Build structured, accessible web pages.</p>
+                    <a href="#html" class="feature-link">Explore HTML →</a>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🎨</div>
+                    <h3>CSS Styling</h3>
+                    <p>Master CSS selectors, layouts, flexbox, grid, animations, and responsive design principles.</p>
+                    <a href="#css" class="feature-link">Explore CSS →</a>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">⚡</div>
+                    <h3>Bootstrap Framework</h3>
+                    <p>Build responsive, mobile-first websites quickly using Bootstrap's powerful grid system and components.</p>
+                    <a href="#bootstrap" class="feature-link">Explore Bootstrap →</a>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">💻</div>
+                    <h3>JavaScript Basics</h3>
+                    <p>Understand variables, functions, DOM manipulation, events, and modern JavaScript features.</p>
+                    <a href="#javascript" class="feature-link">Explore JavaScript →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- HTML Section -->
+    <section class="category-section" id="html">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">HTML Fundamentals</h2>
+                <p class="section-description">Learn the building blocks of web development</p>
+            </div>
+            <div class="category-content">
+                <div class="category-info">
+                    <h3>Topics Covered</h3>
+                    <ul class="topic-list">
+                        <li>HTML Structure & Semantic Elements</li>
+                        <li>Headings, Paragraphs & Text Formatting</li>
+                        <li>Lists (Ordered, Unordered, Description)</li>
+                        <li>Images & Media</li>
+                        <li>Links & Navigation</li>
+                        <li>Forms & Input Elements</li>
+                        <li>Tables & Data Display</li>
+                        <li>HTML5 Semantic Tags</li>
+                    </ul>
+                    <a href="01-html-kategorisi/" class="btn btn-outline">View HTML Examples</a>
+                </div>
+                <div class="category-preview">
+                    <div class="code-preview">
+                        <pre><code>&lt;article&gt;
+    &lt;header&gt;
+        &lt;h1&gt;Article Title&lt;/h1&gt;
+    &lt;/header&gt;
+    &lt;section&gt;
+        &lt;p&gt;Content here...&lt;/p&gt;
+    &lt;/section&gt;
+&lt;/article&gt;</code></pre>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CSS Section -->
+    <section class="category-section" id="css">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">CSS Styling</h2>
+                <p class="section-description">Style your websites beautifully</p>
+            </div>
+            <div class="category-content">
+                <div class="category-preview">
+                    <div class="code-preview">
+                        <pre><code>.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.card {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}</code></pre>
+                    </div>
+                </div>
+                <div class="category-info">
+                    <h3>Topics Covered</h3>
+                    <ul class="topic-list">
+                        <li>CSS Selectors & Specificity</li>
+                        <li>Box Model (Margin, Padding, Border)</li>
+                        <li>Flexbox & Grid Layouts</li>
+                        <li>Responsive Design & Media Queries</li>
+                        <li>CSS Variables & Custom Properties</li>
+                        <li>Animations & Transitions</li>
+                        <li>CSS Best Practices</li>
+                    </ul>
+                    <a href="02-css-kategorisi/" class="btn btn-outline">View CSS Examples</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bootstrap Section -->
+    <section class="category-section" id="bootstrap">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Bootstrap Framework</h2>
+                <p class="section-description">Build responsive websites faster</p>
+            </div>
+            <div class="category-content">
+                <div class="category-info">
+                    <h3>Topics Covered</h3>
+                    <ul class="topic-list">
+                        <li>Bootstrap Grid System</li>
+                        <li>Responsive Utilities</li>
+                        <li>Components (Cards, Buttons, Forms)</li>
+                        <li>Navigation & Navbar</li>
+                        <li>Modals & Dropdowns</li>
+                        <li>Bootstrap Icons & Font Awesome</li>
+                        <li>Customization & Theming</li>
+                    </ul>
+                    <a href="03-bootstrap-kategorisi/" class="btn btn-outline">View Bootstrap Examples</a>
+                </div>
+                <div class="category-preview">
+                    <div class="code-preview">
+                        <pre><code>&lt;div class="container"&gt;
+    &lt;div class="row"&gt;
+        &lt;div class="col-md-6"&gt;
+            Content here
+        &lt;/div&gt;
+        &lt;div class="col-md-6"&gt;
+            More content
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</code></pre>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- JavaScript Section -->
+    <section class="category-section" id="javascript">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">JavaScript Basics</h2>
+                <p class="section-description">Add interactivity to your websites</p>
+            </div>
+            <div class="category-content">
+                <div class="category-preview">
+                    <div class="code-preview">
+                        <pre><code>// DOM Manipulation
+const button = document.querySelector('.btn');
+button.addEventListener('click', () => {
+    console.log('Button clicked!');
+});
+
+// Modern JavaScript
+const greet = (name) => `Hello, ${name}!`;</code></pre>
+                    </div>
+                </div>
+                <div class="category-info">
+                    <h3>Topics Covered</h3>
+                    <ul class="topic-list">
+                        <li>Variables & Data Types</li>
+                        <li>Functions & Arrow Functions</li>
+                        <li>DOM Manipulation</li>
+                        <li>Event Handling</li>
+                        <li>Arrays & Objects</li>
+                        <li>Async/Await & Promises</li>
+                        <li>ES6+ Features</li>
+                    </ul>
+                    <a href="04-javascript-kategorisi/" class="btn btn-outline">View JavaScript Examples</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resources Section -->
+    <section class="resources" id="resources">
+        <div class="container">
+            <h2 class="section-title">Additional Resources</h2>
+            <div class="resources-grid">
+                <div class="resource-card">
+                    <h3>📖 Documentation</h3>
+                    <p>Comprehensive guides and best practices</p>
+                    <a href="docs/" class="btn btn-sm">View Docs</a>
+                </div>
+                <div class="resource-card">
+                    <h3>🔗 Useful Links</h3>
+                    <ul class="link-list">
+                        <li><a href="https://developer.mozilla.org/" target="_blank">MDN Web Docs</a></li>
+                        <li><a href="https://www.w3schools.com/" target="_blank">W3Schools</a></li>
+                        <li><a href="https://getbootstrap.com/" target="_blank">Bootstrap Docs</a></li>
+                        <li><a href="https://javascript.info/" target="_blank">JavaScript.info</a></li>
+                    </ul>
+                </div>
+                <div class="resource-card">
+                    <h3>🛠️ Tools</h3>
+                    <ul class="link-list">
+                        <li><a href="https://code.visualstudio.com/" target="_blank">VS Code</a></li>
+                        <li><a href="https://codepen.io/" target="_blank">CodePen</a></li>
+                        <li><a href="https://www.figma.com/" target="_blank">Figma</a></li>
+                        <li><a href="https://github.com/" target="_blank">GitHub</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Frontend Library 101</h4>
+                    <p>A comprehensive frontend development learning resource.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#html">HTML</a></li>
+                        <li><a href="#css">CSS</a></li>
+                        <li><a href="#bootstrap">Bootstrap</a></li>
+                        <li><a href="#javascript">JavaScript</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Connect</h4>
+                    <div class="social-links">
+                        <a href="https://github.com/Ugurdemiriz/frontendlibrary-101" target="_blank" aria-label="GitHub">GitHub</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Frontend Library 101. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
+
